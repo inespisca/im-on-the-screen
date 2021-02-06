@@ -29,13 +29,15 @@ class App extends Component {
             userProfile = <User user={this.state.user} />
         }
         return (
-            <div className="wrapper">
-                <Header />
-                <div className='search'>
-                    <input type="text" placeholder='Enter a github username' ref="name" />
-                    <button className='search-button' onClick={this.getUser}>
-                        Search
-                    </button>
+            <div className="App">
+                <div className="Navbar">
+                    <Header />
+                    <div className='Search'>
+                        <input type='text' className='Search-input' placeholder='Enter a github username' ref='name' />
+                        <button className='Search-button' onClick={this.getUser}>
+                            Search
+                        </button>
+                    </div>
                 </div>
                 {userProfile}
             </div>
