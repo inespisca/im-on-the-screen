@@ -13,7 +13,7 @@ class App extends Component {
 
     getUser = () => {
         const name = this.refs.name.value;
-        fetch(`http://api.github.com/users/${name}`)
+        fetch(`https://api.github.com/users/${name}`)
             .then(response => response.json())
             .then(data => {
                 this.setState({
