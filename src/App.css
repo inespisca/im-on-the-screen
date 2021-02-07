@@ -111,3 +111,119 @@ h4, h3 {
 a {
     color: #eaeaea;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .Menu-profile {
+        padding-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .Search-input {
+        font-size: 14px;
+    }
+    
+    .Search-button {
+        width: 80px;
+        font-size: 14px;
+    }
+    
+    .Menu-profile {
+        padding-top: 30%;
+    }
+
+    .Menu-area {
+        width: 600px;
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+    }
+
+    .Profile {
+        padding: 10px;
+        width: 600px;
+        height: 350px;
+    }
+
+    .Back-profile {
+        padding: 10px;
+        width: 97%;
+        height: 325px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Header {
+        color: #eaeaea;
+    }
+
+    .Search-input {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .App {
+        font-size: 14px;
+    }
+    
+    .Header {
+        color: #eaeaea;
+    }
+
+    .Search-input {
+        width: 60%;
+    }
+
+    .Menu-area {
+        width: 300px;
+        padding: 0 10px 0 10px;
+    }
+
+    .Menu-profile {
+        padding-top: 50%;
+    }
+
+    .Profile {
+        width: 300px;
+        height: 600px;
+    }
+
+    .Back-profile {
+        width: 90%;
+        height: 95%;
+    }
+
+    .Picture {
+        width: 90%;
+    }
+
+    .Username, .Name, .Url, .About, .Engagement {
+        display: block;
+        float: right;
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 434px) {
+    .Header {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .Search-input {
+        width: 40%;
+        padding-left: 0px;
+    }
+
+    .Search-button {
+        width: 80px;
+        font-size: 10px;
+    }
+    
+    .Menu-profile {
+        padding-top: 50%;
+    }
+}
