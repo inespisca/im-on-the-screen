@@ -13,4 +13,4 @@ Despite being developed on computer, this app has responsive code, meaning that 
 
 ![PC View](https://i.imgur.com/riXY8yL.png)
 
-![Mobile View](https://i.imgur.com/CalycVO.jpg =250x)
+![Mobile View](https://i.imgur.com/CalycVO.jpg)
