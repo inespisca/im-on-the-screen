@@ -49,27 +49,65 @@
 }
 
 .Menu-profile {
-    display: flex;
-    flex-flow: column wrap;
+    display: grid;
+    justify-content: center;
     align-items: center;
-    padding-top: 150px;
-    max-width: 1000px;
+    padding-top: 15%;
 }
   
 .Menu-area {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 100%;
     font-size: 20px;
-    background-color: transparent;
+    color: #eaeaea;
+    background-color: #161b22;
     outline: none;
-    border: none;
-    margin-left: 5px;
+    border-radius: 16px 16px 0 0;
+    width: 800px;
+    padding: 0 20px 0 20px;
 }
   
 .Profile {
     background-color: #eaeaea;
     border-radius: 0 0 16px 16px;
-    padding: 5px 10px;
+    padding: 20px;
+    width: 800px;
+    height: 300px;
+}
+
+.Back-profile {
+    background-color: white;
+    padding: 20px;
+    width: 95%;
+    height: 250px;
+}
+
+.Picture {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.Username, .Name, .Url, .About, .Engagement {
+    display: block;
+    float: right;
+    text-align: center;
+    width: 60%;
+}
+
+.Url {
+    background-color: #161b22;
+    padding: 5px 0 5px 0;
+}
+
+h4, h3 {
+    line-height: 0%;
+}
+
+a {
+    color: #eaeaea;
 }
