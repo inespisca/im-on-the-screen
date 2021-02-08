@@ -18,6 +18,7 @@ class User extends Component {
                     <div className='Back-profile'>
                         <img className='Picture' src={'' + this.props.user.avatar_url} alt="" />
                         <h4 className='Username'>Github username: {this.props.user.login}</h4>
+                        <h5 className='Location'>Location: {this.props.user.location}</h5>
                         <h3 className='Name'>Name: {this.props.user.name}</h3>
                         <a className='Url' href={this.props.user.html_url}>Visit {this.props.user.name}'s Profile</a>
                         <p className='About'><b>About {this.props.user.name}:</b> {this.props.user.bio}</p>
